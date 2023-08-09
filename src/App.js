@@ -8,8 +8,8 @@ function App() {
  
   return (
     
-    <div className="App">
- <AzureAD provider={authProvider}>
+    <>
+ {/*<AzureAD provider={authProvider}>
       <span>Only authenticated users can see me.</span>
     </AzureAD>
  
@@ -41,8 +41,9 @@ function App() {
     }
   }
 </AzureAD>
+*/}
 <Main/>
-    </div>
+   </>
   );
 }
 export default App;

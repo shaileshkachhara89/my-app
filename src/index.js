@@ -6,8 +6,6 @@ import App from './App';
 import { authProvider } from './authProvider';
  
 ReactDOM.render(
-  <AzureAD provider={authProvider} forceLogin={true}>
-    <App />
-  </AzureAD>,
+    <App />,
   document.getElementById('root'),
 );
