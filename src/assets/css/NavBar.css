@@ -1,0 +1,185 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: #f5f6fa;
+}
+
+.wrapper .section{
+	width: 100%;
+	margin-left: 0px;
+}
+
+.wrapper .section .top_navbar{
+	background: rgb(255,255,255);
+	height: 110px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.sidebar{
+	background: rgb(255, 255, 255);
+	margin-left: -12px;
+	height: 300px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.sidebar ul {
+	display: block;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	position: relative;
+	/*box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);*/
+}
+
+.sidebar ul li {
+    background-color: white;
+	display: block;
+	font-size: 16px;
+	position: relative;
+    color: #555;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+	word-wrap: break-word;
+	width: '225px';
+	cursor: pointer;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.sidebar ul li a {
+    background-color: white;
+	display: block;
+	padding: 13px 30px;
+	font-size: 16px;
+	position: relative;
+    color: #555;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+    text-decoration: none;
+	word-wrap: break-word;
+}
+
+.sidebar ul li a.hover {
+	background-color: whitesmoke;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+.sidebar ul ul {
+	display: none;
+	position: absolute;
+	top: 0px; 
+	left: 225px;
+}
+
+.sidebar ul li:hover > ul {
+	display:inherit;
+}
+
+.sidebar ul ul li {
+	width:225px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+.sidebar ul ul ul li {
+	position: relative;
+	top:0px;
+	left:0px;
+}
+
+.wrapper .profile{
+	text-align: center;
+	background-color: #f5f6fa;
+	padding: 10px;
+	margin-left:auto;
+	border-radius: 5%;
+}
+
+.wrapper .profile img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+    border-radius: 50%;
+}
+
+.wrapper .profile p{
+	display: inline-block;
+	margin: 5px;
+	color: #333;
+	font-family: Satoshi;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.sidebar ul li:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  /*****
+  
+  Recent Installation CSS
+
+  ****/
+
+.recentInstallation{
+	background: rgb(255, 255, 255);
+	margin-left: -12px;
+	margin-top: 15px;
+	height: 76%;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.recentInstallation ul li {
+	background-color: white;
+	display: block;
+	font-size: 16px;
+	position: relative;
+	color: #555;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	word-wrap: break-word;
+	width: '225px';
+	cursor: pointer;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.recentInstallation ul li:hover {
+	color: #01447e;
+	text-decoration: underline;
+}
+
+/*
+.sidebar ul li a::after {
+	margin-left: 'auto';
+	padding: 8px;
+	color: black;
+	content: ">";
+}
+*/
+
+ 
+/*
+li > a:after { content:  ' >'; }
+li > a:only-child:after { content: ''; }
+*/

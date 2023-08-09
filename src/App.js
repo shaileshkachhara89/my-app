@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { authProvider } from './authProvider';
 import { AzureAD, AuthenticationState } from 'react-aad-msal';
+import Main from './Main';
+
 function App() {
  
   return (
@@ -39,20 +41,7 @@ function App() {
     }
   }
 </AzureAD>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Main/>
     </div>
   );
 }
